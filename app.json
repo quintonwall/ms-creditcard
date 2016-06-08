@@ -5,4 +5,9 @@
   "addons": ["heroku-postgresql:hobby-dev"],
   "logo": "http://quinton.me/images/ms-cards.png",
   "keywords": ["node", "express", "credit-card"]
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs"
+    }
+  ]
 }
