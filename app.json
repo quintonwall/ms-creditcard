@@ -1,5 +1,5 @@
 {
-  "name": "Credit Card Microservice",
+  "name": "Credit Card Microservice!",
   "description": "Simple collection of credit-card related services",
   "repository": "https://github.com/quintonwall/ms-creditcard",
   "addons": ["heroku-postgresql:hobby-dev"],
