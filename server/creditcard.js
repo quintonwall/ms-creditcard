@@ -30,7 +30,7 @@ function validatenumber(req,res,next) {
  return a random credit score number between 0 and 850
  */ 
 function creditscore(req,res,next) {
- console.log('Getting random credit score')
+ console.log('Getting random credit score');
  return res.send(JSON.stringify("650"));
 }
 
