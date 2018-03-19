@@ -11,6 +11,7 @@ app.use(compression());
 
 app.use('/', express.static(__dirname + '/www'));
 
+app.get('/credit', creditcard.creditscore);
 app.get('/validatecardnumber/:id', creditcard.validatenumber);
 app.post('/validatecreditcard/', creditcard.validatecard);
 
