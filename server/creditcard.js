@@ -26,6 +26,14 @@ function validatenumber(req,res,next) {
   return res.send(JSON.stringify("true"));
 }
 
+/*
+ return a random credit score number between 0 and 850
+ */ 
+function creditscore(req,res,next) {
+ 
+ return res.send(JSON.stringify(Math.floor(Math.random() * 850) + 1));
+}
+
 
 
 
