@@ -67,3 +67,4 @@ function validatecard(req,res,next) {
 
 exports.validatenumber = validatenumber;
 exports.validatecard = validatecard;
+exports.creditscore = creditscore;
