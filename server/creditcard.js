@@ -31,7 +31,9 @@ function validatenumber(req,res,next) {
  */ 
 function creditscore(req,res,next) {
  console.log('Getting random credit score');
- return res.send(JSON.stringify("650"));
+ 
+  var score = Math.floor(Math.random() * (850 - 100)) + 100;
+ return res.send(JSON.stringify(score));
 }
 
 
